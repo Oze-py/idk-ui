@@ -1397,7 +1397,7 @@ function kyri.new(title, options)
 
         local hue_bar = make("ImageLabel", {
             Size = UDim2.fromOffset(-220, 14),
-            Position = UDim2.fromOffset(20, 164),
+            Position = UDim2.fromOffset(40, 164),
             Image = "rbxassetid://698052001",
             Parent = picker
         })
