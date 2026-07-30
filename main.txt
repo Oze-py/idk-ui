@@ -1396,8 +1396,8 @@ function kyri.new(title, options)
         make("UICorner", {CornerRadius = UDim.new(1, 0), Parent = sv_cursor})
 
         local hue_bar = make("ImageLabel", {
-            Size = UDim2.fromOffset(220, -14),
-            Position = UDim2.fromOffset(20, 164),
+            Size = UDim2.fromOffset(-220, -14),
+            Position = UDim2.fromOffset(20, 0),
             Image = "rbxassetid://698052001",
             Parent = picker
         })
