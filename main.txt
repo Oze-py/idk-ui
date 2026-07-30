@@ -1409,6 +1409,7 @@ function kyri.new(title, options)
             AnchorPoint = Vector2.new(0.5, 0.5),
             Position = UDim2.new(h, 0, -0.5, 0),
             BackgroundColor3 = Color3.new(1, 1, 1),
+            Visible = false,
             Rotation = 180,
             ZIndex = 2,
             Parent = hue_bar
