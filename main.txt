@@ -511,8 +511,8 @@ kyri.icons = {
     ["server-crash"] = "rbxassetid://7734053281",
     ["server-off"] = "rbxassetid://7734053361",
     ["server"] = "rbxassetid://7734053426",
-    ["settings-2"] = "rbxassetid://8997386997",
-    ["settings"] = "rbxassetid://7734053495",
+    ["-2"] = "rbxassetid://8997386997",
+    [""] = "rbxassetid://7734053495",
     ["share-2"] = "rbxassetid://7734053595",
     ["share"] = "rbxassetid://7734053697",
     ["sheet"] = "rbxassetid://7743871876",
@@ -1396,7 +1396,7 @@ function kyri.new(title, options)
         make("UICorner", {CornerRadius = UDim.new(1, 0), Parent = sv_cursor})
 
         local hue_bar = make("ImageLabel", {
-            Size = UDim2.fromOffset(220, 14),
+            Size = UDim2.fromOffset(-220, 14),
             Position = UDim2.fromOffset(20, 164),
             Image = "rbxassetid://698052001",
             Parent = picker
