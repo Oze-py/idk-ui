@@ -1377,7 +1377,7 @@ function kyri.new(title, options)
         local h, s, v = Color3.toHSV(current)
 
         local sv_frame = make("ImageLabel", {
-            Size = UDim2.fromOffset(220, 140),
+            Size = UDim2.fromOffset(-220, 140),
             Position = UDim2.fromOffset(20, 16),
             BackgroundColor3 = Color3.fromHSV(h, 1, 1),
             Image = "rbxassetid://4155801252",
