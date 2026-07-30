@@ -739,7 +739,7 @@ function kyri.new(title, options)
     local loaded = false
 
     task.spawn(function()
-        local url = "https://raw.githubusercontent.com/Oze-py/idk-ui/refs/heads/main/IMG1888.png"
+        local url = "https://raw.githubusercontent.com/Oze-py/idk-ui/refs/heads/main/IMG_1888.png"
         local path = "IMG_1888.png"
 
         if not isfile(path) then
