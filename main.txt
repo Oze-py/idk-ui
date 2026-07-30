@@ -28,7 +28,7 @@ kyri.theme = {
 }
 
 kyri.presets = {
-    ["kyri"] = {
+    ["default"] = {
         bg = Color3.fromRGB(8,8,10), container = Color3.fromRGB(14,14,18),
         element = Color3.fromRGB(20,20,26), hover = Color3.fromRGB(28,28,36),
         active = Color3.fromRGB(32,32,42), accent = Color3.fromRGB(138,116,249),
