@@ -1442,7 +1442,7 @@ function kyri.new(title, options)
             local c = Color3.fromHSV(h, s, v)
             sv_frame.BackgroundColor3 = Color3.fromHSV(h, 1, 1)
             sv_cursor.Position = UDim2.new(s, 0, 1 - v, 0)
-            hue_cursor.Position = UDim2.new(h - h*1.5, 0, 0.5, 0)
+            hue_cursor.Position = UDim2.new(h - h*1.5, 0, 999999, 0)
             preview.BackgroundColor3 = c
             if on_change then on_change(c) end
         end
