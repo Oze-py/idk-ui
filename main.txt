@@ -739,8 +739,8 @@ function kyri.new(title, options)
     local loaded = false
 
     task.spawn(function()
-        local url = "https://raw.githubusercontent.com/Justanewplayer19/KyriLib/refs/heads/main/kyriliblogo.png"
-        local path = "kyrilib_logo.png"
+        local url = "https://raw.githubusercontent.com/Oze-py/idk-ui/refs/heads/main/IMG1888.png"
+        local path = "IMG_1888.png"
 
         if not isfile(path) then
             local success, data = pcall(function()
